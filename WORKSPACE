@@ -13,15 +13,9 @@ http_archive(
     urls = ["https://github.com/soniaai/rules_poetry/archive/ecd0d9c66b89403667304b11da3bd99764797a63.tar.gz"],
 )
 
-load("@rules_python//python:pip.bzl", "pip_install")
 load("@com_sonia_rules_poetry//rules_poetry:defs.bzl", "poetry_deps")
 poetry_deps()
 load("@com_sonia_rules_poetry//rules_poetry:poetry.bzl", "poetry")
-
-pip_install(
-   name = "common_deps",
-   requirements = "//:requirements.txt",
-)
 
 
 poetry(
