@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "bazel-bazel-playground/external/common_deps/pypi__numpy"
+  ]
+}
