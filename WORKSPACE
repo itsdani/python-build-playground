@@ -12,7 +12,6 @@ http_archive(
     strip_prefix = "rules_poetry-ecd0d9c66b89403667304b11da3bd99764797a63",
     urls = ["https://github.com/soniaai/rules_poetry/archive/ecd0d9c66b89403667304b11da3bd99764797a63.tar.gz"],
 )
-register_toolchains("//:bundled-interpreter")
 
 load("@com_sonia_rules_poetry//rules_poetry:defs.bzl", "poetry_deps")
 poetry_deps()
