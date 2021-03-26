@@ -1,3 +1,6 @@
+.vscode
+bazelisk
+pyenv
 # Pants workspace files
 /.pants.d/
 /dist/
