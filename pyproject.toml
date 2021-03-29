@@ -1,15 +1,20 @@
 [tool.poetry]
-name = "lib_b"
+name = "python-playground"
 version = "0.1.0"
 description = ""
 authors = ["Daniel Segesdi <daniel.segesdi@turbine.ai>"]
+packages = [
+  { include = "lib_a", from = "lib_a" },
+  { include = "lib_b", from = "lib_b" },
+  { include = "bin_a", from = "executable_a" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "==1.20.2"
-lib_a = {path = "./../lib_a", develop=true}
 
 [tool.poetry.dev-dependencies]
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
