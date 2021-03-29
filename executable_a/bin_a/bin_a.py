@@ -1,6 +1,9 @@
 from lib_b import lib_b
 
 
+def something_else():
+  return "else"
+
 def main():
   """
   Check and show the Python runtime we claim is actual Python runtime
