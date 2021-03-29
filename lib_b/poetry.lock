@@ -8,7 +8,7 @@ python-versions = "^3.8"
 develop = true
 
 [package.dependencies]
-numpy = "^1.20.2"
+numpy = "==1.20.2"
 
 [package.source]
 type = "directory"
@@ -25,7 +25,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "b972a8d3427464ce5b63913536cd5e70ac94e44452f5f55e0964494873339d9a"
+content-hash = "04d476c7c21400bd71e8a6c0fb634b86c9f30e5a9b121e78f3f9be63b7c1b014"
 
 [metadata.files]
 lib-a = []

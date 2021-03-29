@@ -8,7 +8,7 @@ python-versions = "^3.8"
 develop = true
 
 [package.dependencies]
-numpy = "^1.20.2"
+numpy = "==1.20.2"
 
 [package.source]
 type = "directory"
@@ -25,7 +25,7 @@ develop = true
 
 [package.dependencies]
 lib_a = "0.1.0"
-numpy = "^1.20.2"
+numpy = "==1.20.2"
 
 [package.source]
 type = "directory"

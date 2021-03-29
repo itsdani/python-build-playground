@@ -6,7 +6,7 @@ authors = ["Daniel Segesdi <daniel.segesdi@turbine.ai>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-numpy = "^1.20.2"
+numpy = "==1.20.2"
 lib_a = {path = "./../lib_a", develop=true}
 
 [tool.poetry.dev-dependencies]
