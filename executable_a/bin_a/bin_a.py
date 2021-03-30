@@ -2,7 +2,7 @@ from lib_b import lib_b
 
 
 def something_else():
-  return "else"
+  return "***Something else***"
 
 def main():
   """
@@ -15,6 +15,4 @@ def main():
 
 
 if __name__ == "__main__":
-  # we will only care about the first command line args,
-  # which is the python version we will passin
   main()

@@ -1,2 +1,12 @@
 [GLOBAL]
-pants_version = "2.3.0"
+pants_version = '2.3.0'
+backend_packages = ['pants.backend.python']
+
+[python-setup]
+interpreter_search_paths = ['<PYENV_LOCAL>']
+resolver_version = 'pip-2020-resolver'
+
+[source]
+root_patterns = [
+  '/*',
+]
