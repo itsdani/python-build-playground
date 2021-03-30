@@ -1,4 +1,11 @@
 
+# Pants workspace files
+/.pants.d/
+/dist/
+/.pids
+/.pants.workdir.file_lock*
+
+#Bazel & Bazelisk
 bezelisk
 
 # Created by https://www.toptal.com/developers/gitignore/api/bazel,python
